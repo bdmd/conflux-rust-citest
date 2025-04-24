@@ -1,17 +1,11 @@
 #!/bin/bash
 
 set -e
-echo "exec env:"
 env
-echo "exec which python"
 which python
-echo "exec python --version"
 python --version
-echo "which which pip3 && pip3 --version"
 which pip3
 pip3 --version
-echo "echo $SHELL"
-echou $SHELL
 pip3 install \
     cfx-account \
     eth-utils \
