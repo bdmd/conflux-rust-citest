@@ -1,5 +1,5 @@
-###########!/bin/bash
-#!/usr/bin/zsh
+#!/bin/bash
+
 set -e
 echo "exec env:"
 env
