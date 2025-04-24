@@ -141,11 +141,11 @@ mkdir -p $ROOT_DIR/build
 # Build
 declare -a test_result; check_build test_result; save_test_result test_result $CHECK_BUILD
 # fmt and clippy tests
-# declare -a test_result; check_fmt_and_clippy test_result; save_test_result test_result $CHECK_CLIPPY
+declare -a test_result; check_fmt_and_clippy test_result; save_test_result test_result $CHECK_CLIPPY
 # Unit tests
-# declare -a test_result; check_unit_tests test_result; save_test_result test_result $CHECK_UNIT_TEST
+declare -a test_result; check_unit_tests test_result; save_test_result test_result $CHECK_UNIT_TEST
 # Integration test
-# declare -a test_result; check_integration_tests test_result; save_test_result test_result $CHECK_INT_TEST
+declare -a test_result; check_integration_tests test_result; save_test_result test_result $CHECK_INT_TEST
 # Pytest
-# declare -a test_result; check_pytests test_result; save_test_result test_result $CHECK_PY_TEST
+declare -a test_result; check_pytests test_result; save_test_result test_result $CHECK_PY_TEST
 
