@@ -11,7 +11,7 @@ echo "which which pip3 && pip3 --version"
 which pip3
 pip3 --version
 echo "echo $SHELL"
-echo $SHELL
+echou $SHELL
 pip3 install \
     cfx-account \
     eth-utils \
