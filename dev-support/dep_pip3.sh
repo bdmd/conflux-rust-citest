@@ -1,11 +1,7 @@
 #!/bin/bash
 
 set -e
-env
-which python
-python --version
-which pip3
-pip3 --version
+
 pip3 install \
     cfx-account \
     eth-utils \
