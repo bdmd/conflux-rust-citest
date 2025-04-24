@@ -139,7 +139,7 @@ echo -n "" > $ROOT_DIR/.phabricator-comment
 mkdir -p $ROOT_DIR/build
 
 # Build
-# declare -a test_result; check_build test_result; save_test_result test_result $CHECK_BUILD
+declare -a test_result; check_build test_result; save_test_result test_result $CHECK_BUILD
 # fmt and clippy tests
 # declare -a test_result; check_fmt_and_clippy test_result; save_test_result test_result $CHECK_CLIPPY
 # Unit tests
