@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo 'okok'
 SCRIPT_DIR=`dirname "${BASH_SOURCE[0]}"`
 echo "Checking dependent python3 modules ..."
 source $SCRIPT_DIR/dep_pip3.sh
